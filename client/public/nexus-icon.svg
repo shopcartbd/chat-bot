@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="50" y1="35" x2="455" y2="470" gradientUnits="userSpaceOnUse"><stop stop-color="#1B342F"/><stop offset=".48" stop-color="#101C25"/><stop offset="1" stop-color="#0B111A"/></linearGradient>
+    <linearGradient id="mark" x1="150" y1="132" x2="372" y2="383" gradientUnits="userSpaceOnUse"><stop stop-color="#A1F3CE"/><stop offset=".5" stop-color="#59D9A8"/><stop offset="1" stop-color="#26A978"/></linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(0 180 -180 0 256 256)" gradientUnits="userSpaceOnUse"><stop stop-color="#36BC8A" stop-opacity=".19"/><stop offset="1" stop-color="#36BC8A" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="132" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="132" fill="url(#glow)"/>
+  <rect x="2" y="2" width="508" height="508" rx="130" stroke="#B8F6D6" stroke-opacity=".1" stroke-width="4"/>
+  <path d="M256 126c-29 0-53 24-53 53 0 24 17 44 40 51-23 7-40 27-40 51 0 29 24 53 53 53s53-24 53-53c0-24-17-44-40-51 23-7 40-27 40-51 0-29-24-53-53-53Z" stroke="url(#mark)" stroke-width="23" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M126 256c0-29 24-53 53-53 24 0 44 17 51 40 7-23 27-40 51-40 29 0 53 24 53 53s-24 53-53 53c-24 0-44-17-51-40-7 23-27 40-51 40-29 0-53-24-53-53Z" stroke="url(#mark)" stroke-width="23" stroke-linecap="round" stroke-linejoin="round" opacity=".96"/>
+  <circle cx="256" cy="256" r="10" fill="#D0FFE8"/>
+</svg>
